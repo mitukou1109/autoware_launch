@@ -50,27 +50,27 @@
 
       obstacle_filtering:
         object_type:
-          pointcloud: false
+          pointcloud: true
 
           inside:
-            unknown: true
-            car: true
-            truck: true
-            bus: true
-            trailer: true
-            motorcycle: true
-            bicycle: true
-            pedestrian: true
+            unknown: false
+            car: false
+            truck: false
+            bus: false
+            trailer: false
+            motorcycle: false
+            bicycle: false
+            pedestrian: false
 
           outside:
             unknown: false
-            car: true
-            truck: true
-            bus: true
-            trailer: true
-            motorcycle: true
-            bicycle: true
-            pedestrian: true
+            car: false
+            truck: false
+            bus: false
+            trailer: false
+            motorcycle: false
+            bicycle: false
+            pedestrian: false
 
         max_lat_margin: 0.3 # lateral margin between the obstacles except for unknown and ego's footprint
         max_lat_margin_against_predicted_object_unknown: 0.3 # lateral margin between the unknown obstacles and ego's footprint
