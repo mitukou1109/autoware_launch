@@ -1,7 +1,7 @@
 /**:
   ros__parameters:
     # Enable feature
-    will_out_of_lane_checker: true
+    will_out_of_lane_checker: false
     out_of_lane_checker: true
     boundary_departure_checker: false
 
