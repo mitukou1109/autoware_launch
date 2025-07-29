@@ -44,14 +44,14 @@
       obstacle_filtering:
         object_type:
           unknown: false
-          car: true
-          truck: true
-          bus: true
-          trailer: true
-          motorcycle: true
-          bicycle: true
-          pedestrian: true
-          pointcloud: false
+          car: false
+          truck: false
+          bus: false
+          trailer: false
+          motorcycle: false
+          bicycle: false
+          pedestrian: false
+          pointcloud: true
 
         min_lat_margin: 0.0  # lateral margin between obstacle and trajectory band with ego's width to avoid the conflict with the obstacle_stop
         max_lat_margin: 1.1  # lateral margin between obstacle and trajectory band with ego's width
